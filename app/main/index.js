@@ -11,6 +11,14 @@ app.get('/', function(req, res){
   res.sendFile(path.resolve(__dirname + '/../../dist/index.html'));
 });
 
+app.get('/about', function(req, res){
+  res.sendFile(path.resolve(__dirname + '/../../dist/about.html'));
+});
+
+app.get('/contact', function(req, res){
+  res.sendFile(path.resolve(__dirname + '/../../dist/contact.html'));
+});
+
 app.listen(app.get('port'), function() {
   console.log("Node app is running on port", app.get('port'))
 })
