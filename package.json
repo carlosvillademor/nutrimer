@@ -30,6 +30,6 @@
     "wiredep": "^2.0.0"
   },
   "scripts": {
-    "postinstall": "gulp default"
+    "postinstall": "bower install; gulp default"
   }
 }
