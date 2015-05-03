@@ -5,7 +5,8 @@
   "engines": {
     "node": ">=0.10.0"
   },
-  "devDependencies": {
+  "dependencies": {
+    "express": "~4.12.3",
     "autoprefixer-core": "^4.0.2",
     "browser-sync": "^1.8.2",
     "del": "^1.1.1",
@@ -27,9 +28,6 @@
     "main-bower-files": "^2.5.0",
     "opn": "^1.0.0",
     "wiredep": "^2.0.0"
-  },
-  "dependencies": {
-    "express": "~4.12.3"
   },
   "scripts": {
     "postinstall": "gulp default"
