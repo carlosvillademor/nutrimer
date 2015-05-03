@@ -1,5 +1,7 @@
 {
   "private": true,
+  "author": "Carlos Fernandez Garcia <carlos.villademor@gmail.com> (https://github.com/carlosvillademor)",
+  "main": "app/main/index.js",
   "engines": {
     "node": ">=0.10.0"
   },
@@ -28,5 +30,8 @@
   },
   "dependencies": {
     "express": "~4.12.3"
+  },
+  "scripts": {
+    "postinstall": "gulp default"
   }
 }
